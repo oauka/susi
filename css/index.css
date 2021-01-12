@@ -57,8 +57,9 @@ line-height: 1.5; color: #666;
 .header text > p { font-size: 22.4px; }
 
 #ourgallery, #aboutus, #chefmenu, #roadmap, #reservation {
-    margin-top: 100px;
+    padding-top: 120px !important;
 }
+/* !important 선택자 우선 순위를 강제로 높인다. */
 /* #section 구역 */
 #section {
     background: url(../images/bg.jpg) repeat;
