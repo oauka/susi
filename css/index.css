@@ -56,6 +56,9 @@ line-height: 1.5; color: #666;
 .header_text h1 p { font-size:48px; font-family: '나눔명조'; padding: 20px 0px;}
 .header text > p { font-size: 22.4px; }
 
+#ourgallery, #aboutus, #chefmenu, #roadmap, #reservation {
+    margin-top: 100px;
+}
 /* #section 구역 */
 #section {
     background: url(../images/bg.jpg) repeat;
